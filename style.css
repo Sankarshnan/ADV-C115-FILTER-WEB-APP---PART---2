@@ -1,0 +1,26 @@
+body{
+    background-color: wheat;
+}
+
+#snapshotbtn{
+    font-size: larger !important ;
+}
+
+#head{
+    font-size: x-large;
+}
+
+.btn-info:hover{
+   background-color: red;
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {box-shadow: 1px 1px 50px rgb(255, 167, 3);}
+    to {box-shadow: 1px 1px 50px rgb(3, 255, 213);}
+}
